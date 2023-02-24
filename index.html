@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../Js/Operaciones.js"></script>
+    <link rel="stylesheet" href="./Style.css">
+    <title>Información del producto</title>
+</head>
+<body>
+    <h1 style="text-align: center; top: 50px; position: relative;">Información del producto</h1>
+    <div class="big-container">
+        <div id="IMC">
+            <div>
+                <form action="Recibir.html" method="get" onsubmit="return calcular()">
+                    <div style="position: relative; justify-content: center; display: grid;">
+                    <label for="">Nombre</label>
+                    <input type="text" id="txtNom">
+                    <br><br>
+                    <label for="">Valor</label>
+                    <input type="text" id="txtValor">
+                    <br><br>
+                    <label for="">Cantidad</label>
+                    <input type="text" id="txtCantidad">
+                    <br><br>
+                    <div class="Buttons">
+                        <input type="submit" value="calcular" onclick="confirmar(this.value)" style="cursor: pointer;">
+                        
+                    </div>
+                    </div>
+                </form>
+            </div>
+            <br><br>
+            <div class="div2">
+                <h3>Resultado</h3>
+                <form action="">
+                    <div style="position: relative; justify-content: center; display: grid; ">
+                        <label for="">Subtotal</label>
+                        <input type="text" id="txtsubtotal">
+                        <br><br>
+                        <label for="">IVA</label>
+                        <input type="text" id="txtIva">
+                        <br><br>
+                        <label for="">Descuento</label>
+                        <input type="text" id="txtDescuento">
+                        <br><br>
+                        <label for="">Total</label>
+                        <input type="text" id="txtTotal">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr style="bottom: 34vh; position: relative;">
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+#IMC{
+    position: relative;
+    left: 15vh;
+    top: 8vh;
+    text-align: center;
+    width: 540px;
+}
+
+.big-container{
+    top: 5vh;
+    border: gray solid;
+    width: 820px;
+    height: 800px;
+    position: relative;
+    left: 55vh;
+    background: lightgrey;
+    align-content: center;
+}
+
+.div2{
+    border: gold solid;
+    height: 360px;
+}
+
+body{
+    background: beige;
+
+}
